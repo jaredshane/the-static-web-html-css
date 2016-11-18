@@ -1,0 +1,6 @@
+.card {
+	display: flex;
+	width: 30%;
+	border: 1px solid lightblue;
+	justify-content: flex-start;
+}
