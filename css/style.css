@@ -1,6 +1,62 @@
-.card {
-	display: flex;
+ .container {
+ 	display: flex;
+ 	flex-wrap: wrap;
+ 	font-family: 'Open Sans', sans-serif;
+ }
+
+ .card {
 	width: 30%;
 	border: 1px solid lightblue;
-	justify-content: flex-start;
+	margin: 1%;
+
 }
+
+.card header, section {
+	display: flex;
+	flex-direction: column;
+}
+
+.section1 {
+	display: flex;
+	align-self: flex-end;
+}
+
+.status {
+	background-color: grey;
+	color: yellow;
+	font-size: .95em;
+	padding: 2px;
+}
+
+.title {
+	border: 1px dotted lightgrey;
+	text-align: center;
+}
+
+p {
+	text-align: center;
+	margin: .3em;
+	font-weight: 600;
+}
+
+img {
+	width: 50%	;
+	padding-left: 25%;
+	padding-top: 10px;
+}
+
+.specs, .price {
+	margin-left: .4em;
+	font-weight: 600;
+}
+
+.specDetail, .money {
+	font-weight: bolder;
+	font-size: .85em;
+	margin-left: 1.2em;
+}
+
+footer {
+	font-size: .6em;
+}
+
